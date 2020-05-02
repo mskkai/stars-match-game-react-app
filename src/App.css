@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: oblique;
+  color: white;
+}
+
+.game {
+  max-width: 500px;
+}
+
+.help {
+  font: larger;
+  margin: 5px;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: blueviolet;
+}
+
+.body {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  border: thin solid beige;
+  text-align: center;
+}
+
+.right {
+  width: 50%;
+  border: thin solid beige;
+  text-align: center;
+}
+
+.number {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: larger;
+}
+
+.star {
+  display: inline-flex;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 45px;
+}
+
+.timer {
+  margin: 10px;
+  color: coral;
+}
+
+.game-end-status {
+  margin-top: 30px;
+  animation: blinkingText 1s infinite;
+  font-size: larger;
+}
+
+.game-done {
+  height: 40px;
+  width: inherit;
+  font-stretch: semi-expanded;
+  margin-top: 20px;
+  font-weight: bold;
+  background: #c0f76b;
+  border-radius: 15px;
+}
+
+@keyframes blinkingText {
+  30% {
+    color: transparent;
+  }
+
+  60% {
+    color: transparent;
+  }
+}
