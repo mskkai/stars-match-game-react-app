@@ -4,7 +4,7 @@ This app has been deployed here https://react-b3733.web.app/ with firebase hosti
 
 Play the game from https://react-b3733.web.app/
 
-Please open the file App_demo.gif to have a view of the game.
+Please open the file App_Demo.gif to have a view of the game.
 
 ## Available Scripts
 
