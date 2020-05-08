@@ -2,7 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This app has been deployed here https://react-b3733.web.app/ with firebase hosting for more details [https://firebase.google.com/docs/hosting].
 
-Launch the game using https://react-b3733.web.app/
+Play the game from https://react-b3733.web.app/
+
+Please open the file App_demo.gif to have a view of the game.
 
 ## Available Scripts
 
